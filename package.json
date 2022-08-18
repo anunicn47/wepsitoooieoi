@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "@lekoarts/gatsby-themes",
-  "description": "My open-source collection of free Gatsby themes",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "description": "Aelly by Karan",
+  "author": "Aelly <hello@lekoarts.de>",
   "workspaces": [
     "themes/*",
     "examples/*"

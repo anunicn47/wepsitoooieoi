@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "lib": ["dom", "es2015", "es2017"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./themes/**/src/**/*",
+    "./www/src/**/*",
+    "./examples/**/src/**/*",
+    "./vitest-setup.ts"
+  ],
+  "exclude": ["node_modules", "themes/**/node_modules"]
+}

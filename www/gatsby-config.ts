@@ -9,13 +9,13 @@ const githubToken = process.env.GITHUB_TOKEN
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Gatsby Themes by LekoArts`,
-    titleAlt: `Free & Open Source Gatsby Themes by LekoArts`,
+    titleAlt: `Aelly by Karan`,
     siteUrl: `https://themes.lekoarts.de`,
     description: `Get high-quality and customizable Gatsby themes to quickly bootstrap your website! Choose from many professionally created and impressive designs with a wide variety of features and customization options. Use Gatsby Themes to take your project to the next level and let you and your customers take advantage of the many benefits Gatsby has to offer.`,
-    headline: `Get high-quality and customizable Gatsby themes to quickly bootstrap your website`,
+    headline: `Get high-quality and customizable Gatsby themes to quickly bootstrap website`,
     language: `en`,
     image: `/banner.png`,
-    author: `@lekoarts_de`,
+    author: `@anunicn47`,
   },
   plugins: [
     {
@@ -85,8 +85,8 @@ const config: GatsbyConfig = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Free & Open Source Gatsby Themes by LekoArts`,
-        short_name: `GatsbyThemes`,
-        description: `Get high-quality and customizable Gatsby themes to quickly bootstrap your website! Choose from many professionally created and impressive designs with a wide variety of features and customization options. Use Gatsby Themes to take your project to the next level and let you and your customers take advantage of the many benefits Gatsby has to offer.`,
+        short_name: `AellyRbot`,
+        description: `Hey i'm karan `,
         start_url: `/`,
         background_color: `#fff`,
         display: `standalone`,
